@@ -1,0 +1,10 @@
+{
+    "landing_page":{
+        "slides":[
+            "./media/landing_page/image1.jpg",
+            "./media/landing_page/image1.jpg",
+            "./media/landing_page/image1.jpg",
+            "./media/landing_page/image1.jpg"
+        ]
+    }
+}

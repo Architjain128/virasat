@@ -1,0 +1,192 @@
+/* Custom styles for the gradient background */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    /*   overflow: hidden; */
+  }
+  
+
+  
+  .book-now-button {
+    background-color: #fff;
+    color: #ff69b4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+
+
+  .carousel-caption.hero-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1; /* Ensure text is on top of the carousel */
+  }
+  
+  /* Custom styles for the carousel */
+  .carousel-section{
+    height: calc(100vh - 75px);
+    width: 100%;
+  }
+
+  .carousel{
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-inner{
+    height: 100%;
+  }
+
+  .carousel-img-h{
+    height: calc(100vh- 75px) !important;
+  }
+
+  .carousel-caption-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Ensure the images in the carousel cover the entire div */
+  .carousel-item img {
+    object-fit: fill;
+    height: 100vh;
+  }
+  
+  .carousel-item {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+  }
+  
+  /* Add some styles to the image for demonstration purposes */
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .service-wrapper{
+    margin-top: 40px;
+    color: rgb(59, 59, 59);
+  }
+
+  .service-container{
+    display: flex;
+    flex-direction: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+
+  }
+  
+  .service-item h5 {
+    font-size: 1rem !important;
+  }
+  .service-item img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .subheading_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+
+  .pad-section{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  /* Contact section styles */
+  .contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .contact-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .contact-info-column {
+    max-width: 500px;
+  }
+  
+  .map-column {
+    max-width: 500px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item img {
+    max-width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .map {
+    margin-top: 20px;
+  }
+  
+  .header-bar{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+    background-color: #fff;
+  }
+  /* .header + content{
+    position: fixed;
+    top: 75px;
+  } */
