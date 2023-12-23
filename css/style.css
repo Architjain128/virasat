@@ -778,7 +778,6 @@ a:focus {
 
 .logo-virasat{
   height: 60px;
-  width: 90px;
   margin-top: -10px;
   margin-bottom: -10px;
 }
@@ -792,7 +791,7 @@ a:focus {
 }
 
 .faq-box{
-  min-width: 300px;
+  /* max-width: 300px; */
   width: 100%;
 }
 
@@ -1360,7 +1359,18 @@ a:focus {
     padding: 30px;
   }
   .faq-box{
-    max-width: 250px;
+    max-width: 90%;
+  }
+
+  .div-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: auto;
+    overflow: hidden;
+    margin: 0 auto; 
+    justify-items: center;
+    align-items: stretch;
   }
 
 }
@@ -1413,4 +1423,22 @@ a:focus {
 }
 
 
+@media (min-width: 970px) {  
+
+  .faq-box{
+    min-width:350px;
+  }
+
+  .div-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: auto;
+    overflow: hidden;
+    margin: 0 auto; 
+    justify-items: center;
+    align-items: stretch;
+  }
+
+}
 /*# sourceMappingURL=style.css.map */
