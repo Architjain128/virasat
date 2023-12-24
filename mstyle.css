@@ -55,8 +55,9 @@ body {
   
   /* Ensure the images in the carousel cover the entire div */
   .carousel-item img {
-    object-fit: fill;
     height: 100vh;
+    object-fit: cover;
+    object-position: center;
   }
   
   .carousel-item {
