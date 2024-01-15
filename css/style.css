@@ -5,6 +5,48 @@ body {
   overflow-x: hidden;
 }
 
+@media (max-width: 991.98px) {
+
+  .carousel-section{
+    height:auto ;
+  }
+  .carousel{
+    width: 100%;
+    aspect-ratio: 1.77 !important;
+    height: auto;
+    z-index: 100;
+    background-color: red;
+    overflow: hidden;
+  }
+
+  .hide-991{
+    display: none !important;
+  }
+  .unhide-991{
+    display: block !important;
+  }
+
+  .booknow{
+    padding: 10px 50px !important;
+    width: 60%;
+  }
+
+  .footer-fixed{
+    position: fixed;
+    bottom:0;
+    height: 50px;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    z-index: 10000;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 5px 0px;
+  }
+}
+
+
+
 .layout_padding {
   padding: 90px 0;
 }
@@ -231,6 +273,11 @@ a:focus {
   margin: auto;
 }
 
+.empty{
+  content: "";
+  height: 50px;
+  display: none;
+}
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 30px;
   color: #ffffff;
@@ -690,22 +737,26 @@ a:focus {
   color: #ffffff !important;
 }
 .booknow{
-  background-color: #DA0C81;
+  /* background-color: #DA0C81; */
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-radius: 25px;
   font-size: 20px;
   font-weight: bold;
-  border: 2px dashed #ffffff;
+  border: 2px solid #ffffff;
   -webkit-transition: all .3s;
+  background-image: url(../images/flower.jpg);
+  background-size: cover;
+  color: #ffffff;
 }
 
 .booknow:hover,
 .booknow:focus,
 .booknow:active{
-  background-color: #ffffff;
-  color: #610C9F;
-  border: 2px dashed #610C9F;
+  /* background-color: #ffffff; */
+  /* color: #610C9F; */
+  border: 2px dashed #ffffff;
+
   scale: 1.2;
 }
 

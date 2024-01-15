@@ -1820,6 +1820,15 @@ pre code {
 }
 
 @media (max-width: 991.98px) {
+
+  .carousel-section{
+    width: 100%;
+    aspect-ratio: 2 / 1 !important;
+    z-index: 100;
+    background-color: red;
+    overflow: hidden;
+  }
+
   .table-responsive-lg {
     display: block;
     width: 100%;
