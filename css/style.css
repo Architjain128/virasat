@@ -15,7 +15,6 @@ body {
     aspect-ratio: 1.77 !important;
     height: auto;
     z-index: 100;
-    background-color: red;
     overflow: hidden;
   }
 
@@ -1386,7 +1385,7 @@ a:focus {
   .stay-at{
     margin-bottom: 15px;
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   
   .stay-at-name{
@@ -1397,6 +1396,10 @@ a:focus {
   
   .stay-at-tag{
     font-size: 1rem;
+  }
+
+  .carousel-caption{
+    padding-top: 0rem;
   }
 
   .ab-1{
